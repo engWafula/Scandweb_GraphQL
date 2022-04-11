@@ -7,6 +7,7 @@ type Args = {
     }
 }
 
+
 const categoryResolver = (_parent: any, args: Args): CategoryShape => {
     const { input: { title } = {} } = args;
 
